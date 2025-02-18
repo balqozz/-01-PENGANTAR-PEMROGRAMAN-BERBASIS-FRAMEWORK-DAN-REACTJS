@@ -13,6 +13,28 @@ function MyButton() {
     </a>
   );
 }
+
+function Profile() {
+  return (
+  <>
+  <div className="text-xs">Developed by: {user.name}</div>
+  <img
+  className="rounded-full"
+  src={user.imageUrl}
+  alt={'Foto ' + user.name}
+  style={{
+  width: user.imageSize,
+  height: user.imageSize
+  }}
+  />
+  </>
+  );
+  }
+  const user = {
+  name: 'Fulanah bin Fulan',
+  imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
+  imageSize: 90,
+  };
   
 export default function Home() {
   return (
@@ -63,6 +85,7 @@ export default function Home() {
           </a>
           <MyButton />
         </div>
+        <Profile />
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
