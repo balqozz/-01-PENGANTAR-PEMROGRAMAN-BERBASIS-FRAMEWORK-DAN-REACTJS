@@ -41,5 +41,8 @@ telah berhasil terinstall di perangkat Anda!
 
 # Pertanyaan Praktikum 4
 ### 1. Untuk apakah kegunaan sintaks user.imageUrl?
-Sintaks **user.imageUrl** digunakan untuk menampilkan gambar berdasarkan tautan yang tersimpan dalam objek `user`.
+- Sintaks **user.imageUrl** digunakan untuk menampilkan gambar berdasarkan tautan yang tersimpan dalam objek **user**. Tautan ini digunakan sebagai sumber gambar yang akan ditampilkan di halaman web, sehingga gambar bisa berubah secara otomatis sesuai dengan data yang diberikan.
 ### 2. Buktikan dengan screenshoot yang menunjukkan bahwa tahapan percobaan di atas telah berhasil Anda lakukan!
+![4.1](assets/practicum4.1.png)
+![4.2](assets/practicum4.2.png)
+![4.3](assets/practicum4.3.png)
