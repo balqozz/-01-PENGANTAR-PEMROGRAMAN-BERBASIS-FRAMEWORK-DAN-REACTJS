@@ -34,3 +34,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+# Pertanyaan Praktikum 1
+1. Jelaskan kegunaan masing-masing dari Git, VS Code dan NodeJS yang telah Anda install
+pada sesi praktikum ini!
+- Git: Digunakan untuk mengelola versi kode, melacak perubahan, dan memfasilitasi kolaborasi dalam pengembangan perangkat lunak.
+- VS Code: Editor kode yang ringan dan fleksibel dengan fitur seperti debugging, ekstensi, serta integrasi Git.
+- Node.js: Runtime yang memungkinkan eksekusi JavaScript di luar browser, sering digunakan untuk pengembangan backend.
+
+2. Buktikan dengan screenshoot yang menunjukkan bahwa masing-masing tools tersebut
+telah berhasil terinstall di perangkat Anda!
+
+![assets/install-GitHub.png, assets/install-VSCode.png, assets/install-NodeJS.png]()
