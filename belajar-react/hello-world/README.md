@@ -45,4 +45,6 @@ pada sesi praktikum ini!
 2. Buktikan dengan screenshoot yang menunjukkan bahwa masing-masing tools tersebut
 telah berhasil terinstall di perangkat Anda!
 
-![Git Installation](assets/install-GitHub.png, assets/install-NodeJS.png)
+![Git Installation](assets/install-GitHub.png)
+![VSCode Installation](assets/install-VSCode.png)
+![NodeJS Installation](assets/install-NodeJS.png)
