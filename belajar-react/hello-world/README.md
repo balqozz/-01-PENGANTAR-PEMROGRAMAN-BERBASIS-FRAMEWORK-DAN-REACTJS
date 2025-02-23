@@ -32,3 +32,9 @@ telah berhasil terinstall di perangkat Anda!
 
 ### **3. Buktikan dengan screenshoot yang menunjukkan bahwa tahapan percobaan di atas telah berhasil Anda lakukan!**  
 ![Bukti screenshot](assets/practicum2.png)
+
+# Pertanyaan Praktikum 3
+### 1. Buktikan dengan screenshoot yang menunjukkan bahwa tahapan percobaan di atas telah berhasil Anda lakukan!
+![3.1](assets/practicum3.1.png)
+![3.2](assets/practicum3.2.png)
+![3.3](assets/practicum3.3.png)
