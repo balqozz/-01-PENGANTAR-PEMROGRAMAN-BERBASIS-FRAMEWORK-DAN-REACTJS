@@ -38,3 +38,8 @@ telah berhasil terinstall di perangkat Anda!
 ![3.1](assets/practicum3.1.png)
 ![3.2](assets/practicum3.2.png)
 ![3.3](assets/practicum3.3.png)
+
+# Pertanyaan Praktikum 4
+### 1. Untuk apakah kegunaan sintaks user.imageUrl?
+Sintaks **user.imageUrl** digunakan untuk menampilkan gambar berdasarkan tautan yang tersimpan dalam objek `user`.
+### 2. Buktikan dengan screenshoot yang menunjukkan bahwa tahapan percobaan di atas telah berhasil Anda lakukan!
