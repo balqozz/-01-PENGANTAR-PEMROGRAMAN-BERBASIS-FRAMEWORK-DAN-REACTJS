@@ -45,4 +45,4 @@ pada sesi praktikum ini!
 2. Buktikan dengan screenshoot yang menunjukkan bahwa masing-masing tools tersebut
 telah berhasil terinstall di perangkat Anda!
 
-![assets/install-GitHub.png]()
+![Git Installation](assets/install-GitHub.png)
