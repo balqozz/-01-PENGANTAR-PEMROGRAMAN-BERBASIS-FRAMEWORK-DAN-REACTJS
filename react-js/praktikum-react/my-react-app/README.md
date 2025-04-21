@@ -21,7 +21,8 @@ Kemudian pada tabel tersebut, saya bisa menambahkan nama saya, umur, dan email s
 ![Bukti screenshot](img/prac5.1.png)
 
 # Tugas
-1. ![Bukti screenshot](img/tugas_code1.1.png) ![Bukti screenshot](img/tugas_code1.2.png)
+## 1. Komponen Utama ![Bukti screenshot](img/tugas_code1.1.png)
+Komponen Anak ![Bukti screenshot](img/tugas_code1.2.png)
 2. ![Bukti screenshot](img/tugas_code2.png)
 3. ![Bukti screenshot](img/tugas_prac3.1.png) ![Bukti screenshot](img/tugas_prac3.2.png) 
 Penjelasan:
