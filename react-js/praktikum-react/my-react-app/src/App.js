@@ -74,7 +74,60 @@ function Example() {
   );
 }
 
-//Komponen App yang menggunakan Header, Main, dan Footer
+//Tugas Practicum 
+// Komponen Anak: ToDoItem
+function TodoItem({ task, onDelete }) {
+  return (
+    <li>
+      {task}
+      <button onClick={onDelete} style={{ marginLeft: '10px', color: 'red' }}>
+        Hapus
+      </button>
+    </li>
+  );
+}
+
+// Komponen Utama: ToDoList
+function TodoList() {
+  const [tasks, setTasks] = useState([]);
+  const [newTask, setNewTask] = useState('');
+
+  const handleAddTask = (e) => {
+    e.preventDefault();
+    if (newTask.trim() !== '') {
+      setTasks([...tasks, newTask]);
+      setNewTask('');
+    }
+  };
+
+  const handleDeleteTask = (index) => {
+    const updatedTasks = tasks.filter((_, i) => i !== index);
+    setTasks(updatedTasks);
+  };
+
+  return (
+    <div>
+      <h2>Daftar Tugas</h2>
+      <form onSubmit={handleAddTask}>
+        <input
+          type="text"
+          placeholder="Tulis tugas baru..."
+          value={newTask}
+          onChange={(e) => setNewTask(e.target.value)}
+        />
+        <button type="submit">Tambah</button>
+      </form>
+      <ul>
+        {tasks.map((task, index) => (
+          <TodoItem key={index} task={task} onDelete={() => handleDeleteTask(index)} />
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+
+//Komponen App yang menggunakan semua komponen
 function App() {
   return (
     <div>
@@ -83,6 +136,7 @@ function App() {
       <Greeting name="Balqoss" />
       <Counter />
       <Example />
+      <TodoList />
       <Footer />
     </div>
   );
