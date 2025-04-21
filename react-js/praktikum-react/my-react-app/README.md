@@ -28,6 +28,7 @@ Kemudian pada tabel tersebut, saya bisa menambahkan nama saya, umur, dan email s
 ## 2. Tambah fitur
 ![Bukti screenshot](img/tugas_code2.png)
 ## 3. Implementasi fitur untuk menambah dan menghapus 
+![Bukti screenshot](img/tugas_prac3.png) 
 ![Bukti screenshot](img/tugas_prac3.1.png) 
 ![Bukti screenshot](img/tugas_prac3.2.png) 
 
