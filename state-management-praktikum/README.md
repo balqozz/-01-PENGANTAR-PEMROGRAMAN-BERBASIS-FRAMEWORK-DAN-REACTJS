@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Practicum
+## 1. React Context untuk State Global Sederhana
+![Bukti Screenshot](img/prac1.png)
+## 2. Zustand untuk State Management Kompleks
+![Bukti screenshot](img/prac2.png)
+## 3. Redux Toolkit dengan SSR Support
+![Bukti screenshot](img/prac3.png)
+## 4. Data Fetching dengan SWR
+![Bukti screenshot](img/prac4.png)
+## 5. URL State Management
+![Bukti screenshot](img/prac5.png)
 
-## Getting Started
+# Tugas
+## 1. Bandingkan performa antara Context API, Zustand, dan Redux
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 2. Diskusikan kapan sebaiknya menggunakan masing-masing solusi
+### Context API cocok digunakan ketika:
+- Aplikasi kecil atau menengah
+- State yang ingin disimpan bersifat global tapi jarang berubah, seperti: tema aplikasi (light/dark), bahasa (en/id), atau user login
+- Tidak butuh fitur debugging atau struktur kompleks
+* Contoh: pengaturan dark mode atau menyimpan data user login
+### Zustand cocok digunakan ketika:
+- Ingin manajemen state yang lebih efisien dan fleksibel
+- Aplikasi menengah ke besar, tapi tidak ingin ribet seperti Redux
+- State sering berubah dan digunakan oleh banyak komponen
+- Ingin menghindari banyak boilerplate
+* Contoh: e-commerce app dengan banyak state seperti filter, keranjang, notifikasi, dsb.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Redux Toolkit cocok digunakan ketika:
+- Aplikasi besar dan kompleks, apalagi jika dikerjakan oleh banyak developer
+- Kamu perlu fitur seperti middleware, time-travel debugging, atau pengelolaan async logic yang kuat
+- Kamu ingin semua state tersentralisasi dan mudah diuji
+- Perlu pola kerja dan arsitektur yang jelas
+* Contoh: dashboard admin besar, aplikasi enterprise, aplikasi dengan REST API yang kompleks
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
