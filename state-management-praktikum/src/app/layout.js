@@ -23,6 +23,6 @@ export default function RootLayout({ children }) {
           </main>
         </ThemeProvider>
       </body>
-    </html>
-  );
-}
+      </html>
+      );
+    }
