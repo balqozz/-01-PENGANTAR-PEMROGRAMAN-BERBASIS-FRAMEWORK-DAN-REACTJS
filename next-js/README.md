@@ -15,5 +15,9 @@
 
 # Tugas
 ## 1. Buat halaman baru dengan menggunakan Static Site Generation (SSG) yang menampilkan daftar pengguna dari API https://jsonplaceholder.typicode.com/users.
+![Bukti screenshot](img/tugas1.png)
 ## 2. Implementasikan Dynamic Routes untuk menampilkan detail pengguna berdasarkan ID.
+![Bukti screenshot](img/tugas2.1.png)
+![Bukti screenshot](img/tugas2.2.png)
 ## 3. Buat API route yang mengembalikan data cuaca dari API eksternal (misalnya, OpenWeatherMap) dan tampilkan data tersebut di halaman front-end.
+![Bukti screenshot](img/tugas3.png)
