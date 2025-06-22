@@ -1,5 +1,5 @@
 # Langkah 1
-![prac1](img/prac1.png)
+![prac1](public/img/prac1.png)
 
 # Langkah 2
 ![prac2](img/prac2.1.png)
