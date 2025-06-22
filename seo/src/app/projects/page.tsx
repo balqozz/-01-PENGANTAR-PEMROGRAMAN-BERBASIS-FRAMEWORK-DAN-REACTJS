@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { defaultMetadata } from '../utils/metadata';
+import { defaultMetadata } from '../../utils/metadata';
 
 export const metadata: Metadata = {
   title: 'Tentang Saya',
@@ -14,7 +14,7 @@ export default function Home({ metadata }: any) {
   return (
     <div className="mt-16 px-8">
       <header>
-        <h1 className="font-bold text-4xl text-zinc-800">Tentang Saya</h1>
+        <h1 className="font-bold text-4xl text-zinc-800">Proyek</h1>
       </header>
     </div>
   );
